@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import Link from '@material-ui/core/Link';
 
 const styles = {
   root: {
@@ -27,13 +28,13 @@ function HeaderMenu(props) {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-            <MenuIcon />
-          </IconButton>
+          <Link href="/" variant="h6" color="inherit">Matrix 2*2</Link>
           <Typography variant="h6" color="inherit" className={classes.grow}>
             News
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Typography variant="h6" color="inherit">
+            News
+          </Typography>
         </Toolbar>
       </AppBar>
     </div>
