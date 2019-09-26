@@ -26,7 +26,8 @@
     "eslint-plugin-react": "^7.12.4",
     "gatsby": "^2.1.30",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "typeface-roboto": "0.0.54"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
