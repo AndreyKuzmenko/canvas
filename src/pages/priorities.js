@@ -3,9 +3,6 @@ import HeaderMenu from '../components/Shared/HeaderMenu';
 import Container from '../components/Shared/Container/Container';
 import Canvas from '../components/Canvas';
 import CssBaseline from '@material-ui/core/CssBaseline';
-
-
-
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({
@@ -56,26 +53,56 @@ const styles = theme => ({
   },
 });
 
-function App() {
+
+
+function App(props) {
+
+  const { classes } = props;
+ 
   return (
-    <Fragment>
+    <React.Fragment>
       <CssBaseline />
       <HeaderMenu />
       <Container>
-        <Canvas />
+
+      <h2>Eisenhower Matrix</h2>
+      <div className="wrapper">
+        <div className="vertical-title-all">
+            <div className="vertical">Importance</div>
+        </div>
+
+        <div className="border">
+            <div className="sub-title">Important, Not Urgent</div>
+
+         </div>
+        <div className="border">
+            <div className="sub-title">Important, Urgent</div>
+
+        </div>
+        <div className="border">
+
+            <div className="sub-title">Not Important, Not Urgent</div>
+            
+        </div>
+        <div className="border">
+            
+            <div className="sub-title">Not Important, Urgent</div>
+
+        </div>
+
+        <div className="horizont-title horizont-title-all">Urgency</div>
+    </div>
+
+
       </Container>
-    </Fragment>
+    </React.Fragment>
   );
 }
-
 
 App.propTypes = {
 };
 
 export default withStyles(styles)(App);
-
-
-
 
 
 // https://habr.com/ru/post/317344/
