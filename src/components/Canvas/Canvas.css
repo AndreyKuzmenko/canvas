@@ -1,7 +1,7 @@
 ﻿.wrapper {
     display: grid;
     grid-template-columns: 50px 1fr 1fr;
-    grid-template-rows: minmax(200px, auto) minmax(200px, auto) 50px;
+    grid-template-rows: minmax(150px, auto) minmax(150px, auto) 50px;
 }
 
 * {
@@ -21,7 +21,7 @@
     .border .sub-title {
         color: #f3b81d;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 18px;
         margin-bottom: 20px;
         text-align: center;
     }

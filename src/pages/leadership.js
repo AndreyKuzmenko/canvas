@@ -10,7 +10,7 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({
   appBar: {
-    position: 'relative',
+    position: 'fixed',
   },
   icon: {
     marginRight: theme.spacing.unit * 2,
@@ -62,7 +62,40 @@ function App() {
       <CssBaseline />
       <HeaderMenu />
       <Container>
-        <Canvas />
+
+      <h2>Leadership styles</h2>
+    <div className="wrapper">
+        <div className="title">
+            <div className="vertical">Result</div>
+        </div>
+
+        <div className="border">
+            <div className="sub-title">Producer</div>
+            <img src={imgProducer}/>
+        </div>
+        <div className="border">
+            <div className="sub-title">Entrepreneur</div>
+            <img src={imgEnprepreneur}/>
+        </div>
+
+        <div className="title">
+            <div className="vertical">Process</div>
+        </div>
+        <div className="border">
+            
+            <div className="sub-title">Administrator</div>
+            <img src={imgAdministrator}/>
+        </div>
+        <div className="border">
+        <div className="sub-title">Integrator</div>
+            <img src={imgIntegrator}/>
+            
+        </div>
+
+        <div className="horizont-title horizont-title-2">Short term</div>
+        <div className="horizont-title">Long term</div>
+    </div>
+
       </Container>
     </Fragment>
   );

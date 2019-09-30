@@ -28,7 +28,7 @@ function HeaderMenu(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar>
         <Link href="/" variant="h6" color="inherit">
             Matrix 2*2

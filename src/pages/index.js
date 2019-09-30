@@ -18,7 +18,7 @@ import HeaderMenu from '../components/Shared/HeaderMenu';
 
 const styles = theme => ({
   appBar: {
-    position: 'relative',
+    position: 'fixed',
   },
   icon: {
     marginRight: theme.spacing.unit * 2,
@@ -45,7 +45,7 @@ const styles = theme => ({
     },
   },
   cardGrid: {
-    padding: `${theme.spacing.unit * 8}px 0`,
+
   },
   card: {
     height: '100%',
@@ -88,11 +88,10 @@ function Home(props) {
                     />
                     <CardContent className={classes.cardContent}>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Heading
+                      Leadership styles
                       </Typography>
                       <Typography>
-                        This is a media card. Yo can use this section to
-                        describe the content.
+                      Helps you decide on and prioritize tasks by urgency and importance, sorting out less urgent and important tasks which you should either delegate or not do at all.
                       </Typography>
                     </CardContent>
                     
@@ -111,11 +110,10 @@ function Home(props) {
                     />
                     <CardContent className={classes.cardContent}>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Heading
+                      Eisenhower Matrix
                       </Typography>
                       <Typography>
-                        This is a media card. Yo can use this section to
-                        describe the content.
+                      helps you decide on and prioritize tasks by urgency and importance, sorting out less urgent and important tasks which you should either delegate or not do at all.
                       </Typography>
                     </CardContent>
                     
@@ -139,3 +137,5 @@ Home.propTypes = {
 };
 
 export default withStyles(styles)(Home);
+
+//file:///D:/GoogleDrive/Book/%D0%A1%D0%B0%D0%BC%D0%BE%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5/%D0%9A%D0%90%D0%9A%20%D0%A0%D0%90%D0%97%D0%9E%D0%91%D0%A0%D0%90%D0%A2%D0%AC%D0%A1%D0%AF%20%D0%A1%20%D0%A5%D0%90%D0%9E%D0%A1%D0%9E%D0%9C%20%D0%92%20%D0%93%D0%9E%D0%9B%D0%9E%D0%92%D0%95.pdf

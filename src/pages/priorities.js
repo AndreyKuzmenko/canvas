@@ -7,7 +7,7 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({
   appBar: {
-    position: 'relative',
+    position: 'fixed',
   },
   icon: {
     marginRight: theme.spacing.unit * 2,
