@@ -1,9 +1,14 @@
 import React, { Fragment } from 'react';
 import HeaderMenu from '../components/Shared/HeaderMenu';
 import Container from '../components/Shared/Container/Container';
-import Canvas from '../components/Canvas';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
+
+
+import imgProducer from "../images/producer.png" 
+import imgAdministrator from "../images/administrator.png" 
+import imgEnprepreneur from "../images/enprepreneur.png" 
+import imgIntegrator from "../images/integrator.png" 
 
 
 import { withStyles } from '@material-ui/core/styles';
@@ -63,7 +68,7 @@ function App() {
       <HeaderMenu />
       <Container>
 
-      <h2>Leadership styles</h2>
+    <h2>Leadership styles</h2>
     <div className="wrapper">
         <div className="title">
             <div className="vertical">Result</div>
